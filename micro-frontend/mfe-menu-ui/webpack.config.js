@@ -7,18 +7,17 @@ module.exports = {
   entry: "./src/index.js",
   mode: "development",
   devServer: {
-    port: 1001,
+    port: 1002,
   },
   output: {
     publicPath: "auto",
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "shared",
+      name: "menu",
       filename: "remoteEntry.js",
       exposes: {
-        // "./Shared": "./src/index.js",
-        "./Header": "./src/components/molecules/Header/Header.jsx",
+        "./MenuPage": "./src/MenuPage.jsx",
       },
       shared: {
         react: {

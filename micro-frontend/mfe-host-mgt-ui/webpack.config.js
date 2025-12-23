@@ -8,9 +8,13 @@ module.exports = {
   mode: "development",
   devServer: {
     port: 1000,
+    historyApiFallback: true,
   },
   output: {
     publicPath: "auto",
+  },
+  resolve: {
+    extensions: [".js", ".jsx"],
   },
   plugins: [
     new ModuleFederationPlugin({
@@ -18,7 +22,7 @@ module.exports = {
       // filename: 'remoteEntry.js',
       remotes: {
         shared: "shared@http://localhost:1001/remoteEntry.js",
-        // menu: "menu@http://localhost:1002/remoteEntry.js",
+        menu: "menu@http://localhost:1002/remoteEntry.js",
         // cart: "cart@http://localhost:1003/remoteEntry.js",
       },
       shared: {
@@ -38,4 +42,15 @@ module.exports = {
       template: "./public/index.html",
     }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+        },
+      },
+    ],
+  },
 };

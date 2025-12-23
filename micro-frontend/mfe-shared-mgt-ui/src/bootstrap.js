@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/molecules/Header/Header";
+import Header from "./components/molecules/Header/Header.jsx";
 import { createRoot } from "react-dom/client";
 
 const container = document.getElementById("shared-root");
