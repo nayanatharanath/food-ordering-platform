@@ -23,7 +23,7 @@ module.exports = {
       remotes: {
         shared: "shared@http://localhost:1001/remoteEntry.js",
         menu: "menu@http://localhost:1002/remoteEntry.js",
-        // cart: "cart@http://localhost:1003/remoteEntry.js",
+        cart: "cart@http://localhost:1003/remoteEntry.js",
       },
       shared: {
         react: {

@@ -19,6 +19,9 @@ module.exports = {
       exposes: {
         "./MenuPage": "./src/MenuPage.jsx",
       },
+      remotes: {
+        shared: "shared@http://localhost:1001/remoteEntry.js",
+      },
       shared: {
         react: {
           singleton: true,

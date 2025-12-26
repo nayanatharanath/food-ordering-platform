@@ -7,19 +7,20 @@ module.exports = {
   entry: "./src/index.js",
   mode: "development",
   devServer: {
-    port: 1001,
+    port: 1003,
   },
   output: {
     publicPath: "auto",
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "shared",
+      name: "cart",
       filename: "remoteEntry.js",
       exposes: {
-        "./Header": "./src/components/molecules/Header/Header.jsx",
-        "./Button": "./src/components/atoms/Button.jsx",
-        "./theme": "./src/theme/muiTheme.js",
+        "./CartPage": "./src/CartPage.jsx",
+      },
+      remotes: {
+        shared: "shared@http://localhost:1001/remoteEntry.js",
       },
       shared: {
         react: {
