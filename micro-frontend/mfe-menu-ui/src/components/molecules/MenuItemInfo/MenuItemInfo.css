@@ -1,0 +1,25 @@
+.menu-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.menu-item-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.menu-item-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #1c1c1c;
+}
+
+.menu-item-description {
+  font-size: 13px;
+  color: #696969;
+  margin: 0;
+  line-height: 1.4;
+}

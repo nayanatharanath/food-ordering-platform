@@ -1,3 +1,5 @@
+import "./Price.css";
+
 const Price = ({ value }) => {
     if (value === null || value === undefined) return null;
 

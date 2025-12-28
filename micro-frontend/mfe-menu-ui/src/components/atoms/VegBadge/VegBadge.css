@@ -1,0 +1,17 @@
+.veg-badge {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  display: inline-block;
+  border: 1px solid;
+}
+
+.veg-badge.veg {
+  background-color: #0f8a65;
+  border-color: #0f8a65;
+}
+
+.veg-badge.non-veg {
+  border-color: #d32f2f;
+  background-color: #d32f2f;
+}
