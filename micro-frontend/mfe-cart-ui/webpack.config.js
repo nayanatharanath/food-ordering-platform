@@ -17,7 +17,7 @@ module.exports = {
       name: "cart",
       filename: "remoteEntry.js",
       exposes: {
-        "./CartPage": "./src/CartPage.jsx",
+        "./CartPage": "./src/components/pages/CartPage/CartPage.jsx",
       },
       remotes: {
         shared: "shared@http://localhost:1001/remoteEntry.js",

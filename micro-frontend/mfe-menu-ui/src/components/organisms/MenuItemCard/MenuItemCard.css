@@ -1,0 +1,21 @@
+.menu-item-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.menu-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.menu-item-image {
+  width: 120px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 8px;
+}

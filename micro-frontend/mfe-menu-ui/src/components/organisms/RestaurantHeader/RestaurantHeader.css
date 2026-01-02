@@ -1,0 +1,23 @@
+.restaurant-header {
+  padding: 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.restaurant-name {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.restaurant-meta {
+  font-size: 14px;
+  color: #3d3d3d;
+  display: flex;
+  gap: 6px;
+}
+
+.restaurant-cuisines {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #686b78;
+}

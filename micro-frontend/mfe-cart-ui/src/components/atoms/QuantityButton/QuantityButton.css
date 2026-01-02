@@ -1,0 +1,14 @@
+.quantity-button {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #d4d5d9;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.quantity-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

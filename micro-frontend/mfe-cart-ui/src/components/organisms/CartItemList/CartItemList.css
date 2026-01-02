@@ -1,0 +1,11 @@
+.cart-item-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-empty-state {
+  padding: 24px;
+  text-align: center;
+  color: #686b78;
+  font-size: 14px;
+}

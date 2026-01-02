@@ -1,0 +1,22 @@
+.cart-summary {
+  padding: 16px;
+  border-top: 1px solid #eaeaea;
+  background-color: #ffffff;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.grand-total {
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.checkout-button {
+  width: 100%;
+  margin-top: 16px;
+}

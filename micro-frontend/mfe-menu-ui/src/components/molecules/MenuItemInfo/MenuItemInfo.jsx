@@ -1,5 +1,5 @@
-import Price from "../../atoms/Price/Price";
-import VegBadge from "../../atoms/VegBadge/VegBadge";
+import Price from "../../atoms/Price/Price.jsx";
+import VegBadge from "../../atoms/VegBadge/VegBadge.jsx";
 
 const MenuItemInfo = ({ name, description, price, isVeg }) => {
     return (

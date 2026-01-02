@@ -17,7 +17,7 @@ module.exports = {
       name: "menu",
       filename: "remoteEntry.js",
       exposes: {
-        "./MenuPage": "./src/MenuPage.jsx",
+        "./MenuPage": "./src/components/pages/MenuPage/MenuPage.jsx",
       },
       remotes: {
         shared: "shared@http://localhost:1001/remoteEntry.js",
@@ -47,6 +47,10 @@ module.exports = {
         use: {
           loader: "babel-loader",
         },
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
