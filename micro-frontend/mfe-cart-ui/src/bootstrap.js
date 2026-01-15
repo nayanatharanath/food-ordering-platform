@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import CartPage from "./CartPage.jsx";
+import CartPage from "./components/pages/CartPage/CartPage";
 
 const container = document.getElementById("menu-root");
 

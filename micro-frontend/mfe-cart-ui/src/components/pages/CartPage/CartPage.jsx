@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import CartItemList from "../../components/organisms/CartItemList/CartItemList.jsx";
-import CartSummary from "../../components/organisms/CartSummary/CartSummary.jsx";
+import CartItemList from "../../organisms/CartItemList/CartItemList.jsx";
+import CartSummary from "../../organisms/CartSummary/CartSummary.jsx";
 import "./CartPage.css"
 
 // const CartPage = () => {
