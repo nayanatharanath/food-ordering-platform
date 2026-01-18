@@ -1,0 +1,16 @@
+{
+  "name": "menu-service",
+  "version": "1.0.0",
+  "description": "menu service used for menu items, categories and prices",
+  "license": "ISC",
+  "author": "Nayana Tharanath",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
